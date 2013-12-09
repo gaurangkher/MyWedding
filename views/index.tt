@@ -1,0 +1,76 @@
+<script src="<% request.uri_base %>/javascripts/animate2.js" ></script>
+
+<div id="magazine">
+	<div class="hard">
+		<p id="first"> 
+			Wedding Invitation<br> 
+			Khushboo Weds Gaurang
+		</p>
+	</div>
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/page2.jpg">
+	</div>
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/page3.jpg">	
+		<p id="top">
+	        Childhood aquantainces to teenage Friends...<br>
+		Teenage friends to young romantics...<br>
+		Young romantics to deeply in love...<br>
+		Feels all  like a fairy-tale ..<br>
+		About to come true...
+		</p>
+		<p id="mid">
+		A new journey yet begins,<br>
+		Of Life beyond fairy tales<br>
+		where dreams do come true...<br>
+		Together we take a vow to set afoot on this path<br>
+		United and with a happy heart..
+		</p>
+		<p id="bottom">
+		And what is happiness, if not shared with you..<br><br>
+
+		Please grace us with your presence as <br>
+		we would love to have your blessings for our wedding ceremony.
+
+		</p>	
+	</div>
+	<div class="page"> 
+		<img id="img" src="<% request.uri_base %>/images/page2.jpg">
+	</div>
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/page3.jpg">
+		<p id="top">
+			Wedding: 28th Dec 2013<br>
+			Venue: Hotel Kala Saagar<br>
+			Old Mumbai-Pune Highway, Kasarwdi, Pune 
+		</p>
+	        <p id="mid">
+			Reception: 29th Dec 2013<br>
+			Venue: Residency Club<br>
+			Queens Garden Road, Sasson Road,<br>
+			Koregaon Park, Pune<br>
+		</p>
+		<p id="bottom">
+			Save the Date!
+		</p>
+	</div>
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/page4.jpg">
+		<form id="mid" action="/index" method="post" name="form1">
+			Name:   <input type="text" name="name"><br>
+			Wishes: <textarea rows="4", cols="40" name="comment"></textarea>
+			        <input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/page5.jpg">
+		<p id="top"> 
+			<% FOREACH id IN entries %>
+    			<% id.name %> :<br> 
+			<% id.comment %><br><br> 
+  			<% END %>
+		</p>
+	<input id= "hidden" style="visibility:hidden" value="<% response %>" >
+	</div>
+	<div class="hard"></div>
+</div>

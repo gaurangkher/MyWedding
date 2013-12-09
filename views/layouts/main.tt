@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
+<title>MyWedding</title>
+<link rel="stylesheet" href="<% request.uri_base %>/css/main.css" />
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="<% request.uri_base %>/javascripts/turn/turn.min.js"></script>
+</head>
+<body>
+<div id="main">
+<% content %>
+</div>
+</body>
+</html>
