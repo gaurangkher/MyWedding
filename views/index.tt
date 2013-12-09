@@ -17,16 +17,12 @@
 		Teenage friends to young romantics...<br>
 		Young romantics to deeply in love...<br>
 		Feels all  like a fairy-tale ..<br>
-		About to come true...
-		</p>
-		<p id="mid">
+		About to come true...<br><br>
 		A new journey yet begins,<br>
 		Of Life beyond fairy tales<br>
 		where dreams do come true...<br>
 		Together we take a vow to set afoot on this path<br>
-		United and with a happy heart..
-		</p>
-		<p id="bottom">
+		United and with a happy heart..<br><br>
 		And what is happiness, if not shared with you..<br><br>
 
 		Please grace us with your presence as <br>
@@ -70,7 +66,6 @@
 			<% id.comment %><br><br> 
   			<% END %>
 		</p>
-	<input id= "hidden" style="visibility:hidden" value="<% response %>" >
 	</div>
 	<div class="hard"></div>
 </div>
