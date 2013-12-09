@@ -23,3 +23,7 @@ $(window).bind('keydown', function(e){
 		
 });
 
+$(window).bind('load', function(e){
+	$("[id=top]").removeClass('box');
+	$("[id=magazine]").removeClass('box');
+});	
