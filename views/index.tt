@@ -1,7 +1,8 @@
 <script src="<% request.uri_base %>/javascripts/animate2.js" ></script>
 
 <div id="magazine" class="box">
-	<div class="hard">
+	<div class="page">
+		<img id="img" src="<% request.uri_base %>/images/body.jpg">
 		<p id="first"> 
 			Wedding Invitation<br> 
 			Khushboo Weds Gaurang
@@ -63,5 +64,7 @@
   			<% END %>
 		</p>
 	</div>
-	<div class="hard"></div>
+	<div class="page">
+	<img id="img" src="<% request.uri_base %>/images/body.jpg">
+	</div>
 </div>
