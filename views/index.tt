@@ -1,11 +1,13 @@
 <script src="<% request.uri_base %>/javascripts/animate2.js" ></script>
-
+<p id="info"> Go ahead open the Invitation -> </p>
 <div id="magazine" class="box">
+
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/body.jpg">
 		<p id="first"> 
 			Wedding Invitation<br> 
-			Khushboo Weds Gaurang
+			Khushboo Weds Gaurang<br>
+			28th Dec 2013
 		</p>
 	</div>
 	<div class="page">
@@ -14,20 +16,19 @@
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/page3.jpg">	
 		<p id="top" class="box">
-	        Childhood aquantainces to teenage Friends...<br>
-		Teenage friends to young romantics...<br>
+	    Childhood aquantainces to teenage friends...<br>
+		teenage friends to young romantics...<br>
 		Young romantics to deeply in love...<br>
-		Feels all  like a fairy-tale ..<br>
+		Feels all like a fairy tale ..<br>
 		About to come true...<br><br>
 		A new journey yet begins,<br>
-		Of Life beyond fairy tales<br>
-		where dreams do come true...<br>
-		Together we take a vow to set afoot on this path<br>
-		United and with a happy heart..<br><br>
+		Of life beyond fairy tales<br>
+		Together we set afoot on this path<br>
+		United and with a happy heart..<br>
 		And what is happiness, if not shared with you..<br><br>
 
 		Please grace us with your presence as <br>
-		we would love to have your blessings for our wedding ceremony.
+		we would love to have you for our wedding ceremony.
 
 		</p>	
 	</div>
@@ -51,7 +52,7 @@
 		<img id="img" src="<% request.uri_base %>/images/page4.jpg">
 		<form id="mid" action="/index" method="post" name="form1">
 			Name:   <input type="text" name="name"><br>
-			Wishes: <textarea rows="4", cols="40" name="comment"></textarea>
+			Wishes: <textarea rows="4", cols="35" name="comment"></textarea>
 			        <input type="submit" value="Submit">
 		</form>
 	</div>
