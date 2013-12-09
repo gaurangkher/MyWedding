@@ -8,6 +8,9 @@ $(window).ready(function() {
 		when: {
 			turned: function(e, page) {
 				/*console.log('Current view: ', $(this).turn('view'));*/
+				if(page > 1) {
+					$('#info').addClass('box');
+				}
 			}
 		}
 	});
@@ -15,7 +18,7 @@ $(window).ready(function() {
 
 
 $(window).bind('keydown', function(e){
-	
+
 	if (e.keyCode==37)
 		$('#magazine').turn('previous');
 	else if (e.keyCode==39)

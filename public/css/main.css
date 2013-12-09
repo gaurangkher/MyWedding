@@ -1,7 +1,7 @@
 @font-face
 {
 font-family:Vivaldi;
-src: url('/fonts/Vivaldi.ttf') format('truetype');
+src: url('/fonts/PhoenixScriptFLF.ttf') format('truetype');
 }
 #main
 {
@@ -10,6 +10,19 @@ width: 100%;
 position: absolute;
 background-image:url('/images/beige2.jpg');
 background-position:center;
+}
+
+#info
+{
+color: #000; /* Fallback for older browsers */
+color: rgba(0, 0, 0, 0.5);
+font-family: Arial, sans-serif;
+height:2%;
+width:50%;
+left:30%;
+position:absolute;
+font-size:100%
+text-align:center;
 }
 
 .box {
@@ -28,11 +41,12 @@ background-repeat:no-repeat;
 #top
 {
 position:absolute;
-top: 20%;
+top: 18%;
 left: 25%;
 text-align:left;
 color:#FFD700;
 font-family:Vivaldi; 
+font-size:105%;
 } 
 
 #mid
@@ -49,9 +63,10 @@ font-family:Vivaldi;
 #first
 {
 position:absolute;
-top: 50%;
-left: 45%;
+top: 35%;
+left: 20%;
 text-align:center;
+font-size:140%;
 color:#FFD700;
 font-family:Vivaldi; 
 
@@ -71,35 +86,6 @@ font-family:Vivaldi;
 {
 top: 85px;
 text-align:center;
-}
-
-
-input#bigbutton {
-background: #FFD700;
-padding: 8px 14px 10px; /*apply some padding inside the button*/
-border:1px solid #FFD900;
-cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
-/*style the text*/
-text-shadow: 0 -1px 0px rgba(0, 0, 255	, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
-opacity: 0.5;
-color: #0000FF;
-/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
--webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
--moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
-/*give the corners a small curve*/
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-}
-/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
-input#bigbutton:hover, input#bigbutton:focus {
-color:#0000FF;
-opacity: 0.7;
-/*reduce the size of the shadow to give a pushed effect*/
--webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
--moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
 }
 
 #main > #magazine {
