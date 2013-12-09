@@ -10,7 +10,7 @@ get '/index' => sub {
     my @rows = $col->find->sort( { time => 1 } )->limit(8)->all;
     template 'index.tt', {
         entries => \@rows,
-	response => 'get',
+		response => 'get',
     };
 };
 
@@ -22,8 +22,8 @@ post '/index' => sub {
     });
     my @rows = $col->find->sort( { time => 1 } )->limit(8)->all;	
     template 'index.tt', {
-	entries => \@rows,
-	response => 'post',
+		entries => \@rows,
+		response => 'post',
     };
 };
 
