@@ -1,8 +1,3 @@
-@font-face
-{
-font-family:Vivaldi;
-src: url('/fonts/PhoenixScriptFLF.ttf') format('truetype');
-}
 #main
 {
 height: 100%;
@@ -45,7 +40,8 @@ top: 18%;
 left: 25%;
 text-align:left;
 color:#FFD700;
-font-family:Vivaldi; 
+font-family: 'Rouge Script', cursive;
+font-family: 'PT Sans', sans-serif;
 font-size:105%;
 } 
 
@@ -56,8 +52,8 @@ top: 40%;
 left: 25%;
 text-align:left;
 color:#FFD700;
-font-family:Vivaldi; 
-
+font-family: 'Rouge Script', cursive;
+font-family: 'PT Sans', sans-serif;
 }
 
 #first
@@ -68,24 +64,8 @@ left: 20%;
 text-align:center;
 font-size:140%;
 color:#FFD700;
-font-family:Vivaldi; 
-
-}
-
-#bottom
-{
-position:absolute;
-top: 60%;
-left: 25%;
-text-align:left;
-color:#FFD700;
-font-family:Vivaldi; 
-}
-
-#next
-{
-top: 85px;
-text-align:center;
+font-family: 'Rouge Script', cursive;
+font-family: 'PT Sans', sans-serif;
 }
 
 #main > #magazine {
