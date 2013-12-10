@@ -51,8 +51,9 @@
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/page4.jpg">
 		<form id="mid" action="/index" method="post" name="form1">
+			If you have something to say ...
 			Name:   <input type="text" name="name"><br>
-			Wishes: <textarea rows="4", cols="35" name="comment"></textarea>
+			Wishes: <textarea rows="4", cols="32" name="comment"></textarea>
 			        <input type="submit" value="Submit">
 		</form>
 	</div>

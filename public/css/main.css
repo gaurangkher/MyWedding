@@ -36,13 +36,12 @@ background-repeat:no-repeat;
 #top
 {
 position:absolute;
-top: 18%;
+top: 10%;
 left: 25%;
 text-align:left;
 color:#FFD700;
 font-family: 'Rouge Script', cursive;
-font-family: 'PT Sans', sans-serif;
-font-size:105%;
+font-size:160%;
 } 
 
 #mid
@@ -53,19 +52,18 @@ left: 25%;
 text-align:left;
 color:#FFD700;
 font-family: 'Rouge Script', cursive;
-font-family: 'PT Sans', sans-serif;
+font-size:200%
 }
 
 #first
 {
 position:absolute;
-top: 35%;
+top: 30%;
 left: 20%;
 text-align:center;
-font-size:140%;
+font-size:300%;
 color:#FFD700;
 font-family: 'Rouge Script', cursive;
-font-family: 'PT Sans', sans-serif;
 }
 
 #main > #magazine {
