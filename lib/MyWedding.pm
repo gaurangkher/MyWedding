@@ -15,9 +15,13 @@ get '/index' => sub {
 };
 
 post '/index' => sub {
+
+    my $comment = params->{'comment'};
+    $comment =~ s/\r\n/<br>/g;
+
     $col->insert({
 	name => params->{'name'},
-	comment => params->{'comment'},
+	comment => $comment,
 	time    => localtime,
     });
     my @rows = $col->find->sort( { time => 1 } )->limit(8)->all;	

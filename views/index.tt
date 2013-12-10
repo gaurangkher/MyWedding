@@ -38,7 +38,7 @@
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/page3.jpg">
 		<p id="top" class="box">
-			<b>Wedding: 28th Dec 2013</b><br>
+			<br><b>Wedding: 28th Dec 2013</b><br>
 			Venue: Hotel Kala Saagar<br>
 			Time: 11:00am<br>
 			Old Mumbai-Pune Highway, Kasarwdi, Pune<br><br> 
@@ -53,7 +53,7 @@
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/page4.jpg">
 		<form id="mid" action="/index" method="post" name="form1">
-			If you have something to say ...
+			<b>If you have something to say ...</b><br>
 			Name:   <input type="text" name="name"><br>
 			Wishes: <textarea rows="4", cols="32" name="comment"></textarea>
 			        <input type="submit" value="Submit">
