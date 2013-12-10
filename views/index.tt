@@ -38,11 +38,13 @@
 	<div class="page">
 		<img id="img" src="<% request.uri_base %>/images/page3.jpg">
 		<p id="top" class="box">
-			Wedding: 28th Dec 2013<br>
+			<b>Wedding: 28th Dec 2013</b><br>
 			Venue: Hotel Kala Saagar<br>
+			Time: 11:00am<br>
 			Old Mumbai-Pune Highway, Kasarwdi, Pune<br><br> 
-			Reception: 29th Dec 2013<br>
+			<b>Reception: 29th Dec 2013</b><br>
 			Venue: Residency Club<br>
+			Time: 7:00pm onwards<br>
 			Queens Garden Road, Sasson Road,<br>
 			Koregaon Park, Pune<br><br><br>
 			Save the Date!
