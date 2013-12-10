@@ -8,7 +8,7 @@
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script src="<% request.uri_base %>/javascripts/turn/turn.min.js"></script>
+<script src="<% request.uri_base %>/javascripts/turn/turn.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Rouge+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
