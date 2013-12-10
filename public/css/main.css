@@ -52,16 +52,16 @@ left: 25%;
 text-align:left;
 color:#FFD700;
 font-family: 'Rouge Script', cursive;
-font-size:200%
+font-size:140%
 }
 
 #first
 {
 position:absolute;
-top: 30%;
+top: 35%;
 left: 20%;
 text-align:center;
-font-size:250%;
+font-size:225%;
 color:#FFD700;
 font-family: 'Rouge Script', cursive;
 }
